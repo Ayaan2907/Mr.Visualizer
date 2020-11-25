@@ -1,2 +1,2 @@
-# Mr.Visualiser
+# Mr.Visualizer
 A web page to visualise various sorting algorithms.
