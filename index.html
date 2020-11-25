@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Mr.Visualiser</title>
+    <title>Mr.Visualizer</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="styles/navStyle.css">
+    <link rel="stylesheet" href="scripts/contentStyle.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -25,96 +25,60 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Mr.Visualiser</h3>
+                <h3>Mr.Visualizer</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <!-- <p>Sortig</p> -->
-                <!-- <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li> -->
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sorts</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">Selection Sort</a>
+                            <a href="#" onclick=" ">Selection Sort</a>
                         </li>
                         <li>
-                            <a href="#">Insertion Sort</a>
+                            <a href="#" onclick=" ">Insertion Sort</a>
                         </li>
                         <li>
-                            <a href="#">Quick Sort</a>
+                            <a href="#" onclick=" ">Quick Sort</a>
                         </li>
                         <li>
-                            <a href="#">Merge Sort</a>
+                            <a href="#" onclick=" ">Merge Sort</a>
                         </li>
                         <li>
-                            <a href="#">Radix Sort</a>
+                            <a href="#" onclick=" ">Radix Sort</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" onclick=" ">reset</a>  <!-- FIXME: make it a button    -->
+                    <a href="#" onclick=" ">reset</a>  <!-- FIXME: make it a button -->
                 </li>
-                <li>
-                    <a href="#" onclick=" ">adjust speed</a>  <!-- FIXME: make it a range    -->
+                <li class="form-group">
+                    <input type="text" class="form-control sizeInput" id="sizeInput" placeholder="enter size 1 to 100">
                 </li>
             </ul>
             
             <ul class="list-unstyled CTAs">
 
                 <li>
-                    <a href="# " class="article">social links</a>
-                    <a href="# " class="article">social links</a>
-                    <a href="# " class="article">social links</a>
-                    <a href="# " class="article">social links</a>
+                    <a href="https://github.com/Ayaan2907/Mr.Visualizer" class="article">GitHub</a>
+                    <a href="https://www.linkedin.com/in/mohammed-ayaan-kaifullah-b8a726171/" class="article">Linkdin</a>
+                </li>
             </ul>
             <div class="sidebar-footer">
-                        @2020 
-                <!-- TODO: footer -->
+                Mohammed Ayaan Kaifullah
             </div>
         </nav>
 
         <!-- Page Content Holder -->
         <div id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-
                     <button type="button" id="sidebarCollapse" class="navbar-btn">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
-                    <!-- <div class="collapse navbar-collapse navbar-item">do it as u wish</div>
-                   <div class="collapse    navbar-collapse"    id="navbarSupportedContent">
-                        do it as u wish
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                        </ul>
-                    </div>  -->
+
                 </div>
             </nav>
         </div>

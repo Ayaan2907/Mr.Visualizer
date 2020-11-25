@@ -81,8 +81,10 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    padding: 20px 0, 1px, 0px;
+    /* border-bottom: 1px solid #47748b;
+    border-top: 1px solid #47748b; */
+
 }
 
 #sidebar ul p {
@@ -98,6 +100,11 @@ a, a:hover, a:focus {
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
+    border-radius: 3rem;
+}
+.sizeInput{
+    margin: 5% 5% auto auto  ;
+    border-radius: 3rem;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
@@ -105,7 +112,9 @@ a, a:hover, a:focus {
     background: #6d7fcc;
 }
 
-
+/* button{
+    
+} */
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -117,7 +126,11 @@ a[data-toggle="collapse"] {
     right: 20px;
     transform: translateY(-50%);
 }
-
+li a {
+    font-size: 0.9em !important;
+    text-align: center;
+    background: #6d7fcc;
+}
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
@@ -194,7 +207,6 @@ a.article:hover {
     opacity: 1;
     margin: 5px auto;
 }
-
 
 /* ---------------------------------------------------
     MEDIAQUERIES
