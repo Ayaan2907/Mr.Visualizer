@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="styles/navStyle.css">
-    <link rel="stylesheet" href="scripts/contentStyle.css">
+    <link rel="stylesheet" href="styles/contentStyle.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -36,24 +36,33 @@
                             <a href="#" onclick=" ">Selection Sort</a>
                         </li>
                         <li>
-                            <a href="#" onclick=" ">Insertion Sort</a>
+                            <a href="#" onclick=" ">Bubble Sort</a>
                         </li>
                         <li>
-                            <a href="#" onclick=" ">Quick Sort</a>
+                            <a href="#" onclick=" ">insertion Sort</a>
                         </li>
                         <li>
                             <a href="#" onclick=" ">Merge Sort</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick=" ">Quick Sort</a>
                         </li>
                         <li>
                             <a href="#" onclick=" ">Radix Sort</a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#" onclick=" ">reset</a>  <!-- FIXME: make it a button -->
+                <li class="form-group">
+                    <input type="range" class="form-control sizeInput" id="sizeInput" max="200" min="10" value="50" title="CHOOSE ARRAY SIZE">
                 </li>
                 <li class="form-group">
-                    <input type="text" class="form-control sizeInput" id="sizeInput" placeholder="enter size 1 to 100">
+                    <input type="range" class="form-control sizeInput" id="sizeInput" max="200" min="10" value="120" title="CHOOSE SORTING SPEED">
+                </li>
+                <li>
+                    <a href="#" onclick=" ">Generate</a> 
+                </li>
+                <li>
+                    <a href="#" onclick=" ">Reset</a> 
                 </li>
             </ul>
             
@@ -65,7 +74,9 @@
                 </li>
             </ul>
             <div class="sidebar-footer">
-                Mohammed Ayaan Kaifullah
+                <a href="https://ayaankaifullah.tech">
+                    Mohammed Ayaan Kaifullah
+                </a>
             </div>
         </nav>
 
@@ -81,6 +92,10 @@
 
                 </div>
             </nav>
+        </div>
+        <div class="box effect8">
+            <!--  visualisation goes here   <h3>Effect 8</h3> -->
+
         </div>
     </div>
 
